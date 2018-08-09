@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "PPP",
+    "PPP",
+    "PPP"
+  ],
+  "key":
+  {
+    "P":
+    {
+      "item": "brianface:brian_poo"
+    }
+  },
+  "result":
+  {
+    "item": "brianface:brian_block_poo"
+  }
+}

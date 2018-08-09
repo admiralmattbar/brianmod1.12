@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "variant=brain": { "model": "brianface:ore_overworld_brain"},
+    "variant=boyan": { "model": "brianface:ore_overworld_boyan"},
+    "variant=boob": { "model": "brianface:ore_overworld_boob"}
+
+  }
+}

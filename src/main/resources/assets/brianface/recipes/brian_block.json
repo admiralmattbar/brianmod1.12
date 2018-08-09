@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "key":{
+    "B": {
+      "item": "brianface:brian_face"
+    }
+  },
+  "result": {
+    "item": "brianface:brian_block"
+  }
+}

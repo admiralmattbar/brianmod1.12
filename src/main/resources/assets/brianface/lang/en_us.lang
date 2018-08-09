@@ -1,0 +1,31 @@
+
+#Items
+
+item.brian_jerky.name=Brian Jerky
+item.brian_wrench.name=Brian Wrench
+item.brian_helmet.name=Brian Helmet
+item.brian_chestplate.name=Brian Chestplate
+item.brian_leggings.name=Brian Leggings
+item.brian_boots.name=Brian Boots
+item.brian_face.name=Brian Face
+item.brian_poo.name=Brian Poo
+item.brian_pickaxe.name=Brian Pickaxe
+item.brian_hoe.name=Brian Hoe
+item.brian_shovel.name=BrianShovel
+item.brian_axe.name=Brian Axe
+item.brian_wrench.name=Brian Wrench
+item.brapple.name=Brapple
+item.raw_brian.name=Raw Brian
+
+
+#Blocks
+
+tile.diff_block.name=Different Block
+tile.weird_block.name=Weird Block
+tile.brian_ore.name=Brian Ore
+tile.brian_block.name=Brian Block
+tile.brian_block_poo=Brian Poo Block
+
+
+#Entities
+

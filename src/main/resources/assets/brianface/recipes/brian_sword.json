@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " B ",
+    " S "
+  ],
+  "key":{
+    "B": {
+      "item": "brianface:brian_face"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "brianface:brian_sword"
+  }
+}
