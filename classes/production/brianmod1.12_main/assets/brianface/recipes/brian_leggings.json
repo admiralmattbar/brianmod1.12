@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "E E",
+    "E E"
+  ],
+  "key":{
+    "E": {
+      "item": "brianface:brian_face"
+    }
+  },
+  "result": {
+    "item": "brianface:brian_leggings"
+  }
+}

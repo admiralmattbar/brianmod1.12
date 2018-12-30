@@ -1,6 +1,6 @@
 /*
  * This is the main class for the mod. All of the things you make have to be initialized and registered here. This also
- * helps you with your proxy settings so that you do not crash the game when you run a server with this mod.
+ * helps you with your proxy settings so that you can handle both Minecraft instances.
  */
 
 package org.educraft.brianface;

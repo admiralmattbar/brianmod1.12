@@ -21,7 +21,6 @@ public class BlockInit {
     public static ModBlock WEIRD_BLOCK = new ModBlock("weird_block", Material.ROCK, CreativeTabs.DECORATIONS);
     public static final ModBlock BRIAN_BLOCK_POO = new BlockBrianPoo();
     public static final ModOre ORE_OVERWORLD = new ModOre("ore_overworld", "overworld");
-    //public static final ModOre ORE_NETHER = new ModOre("ore_nether", "nether");
 
 
 

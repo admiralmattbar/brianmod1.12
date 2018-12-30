@@ -14,16 +14,16 @@ import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.fml.common.IWorldGenerator;
 import org.educraft.brianface.blocks.ModOre;
 import org.educraft.brianface.init.BlockInit;
-import org.educraft.brianface.util.EnumHandler;
+import org.educraft.brianface.util.EnumHandlerBlock;
 
 public class ModWorldGenOre implements IWorldGenerator {
 	private WorldGenerator over_brain, over_boyan, over_boob, brian_ore;
 	
 	public ModWorldGenOre(){
 		brian_ore = new WorldGenMinable(BlockInit.BRIAN_ORE.getDefaultState(), 12); //Generates material_ore in batches of no more than 12.
-		over_brain = new WorldGenMinable(BlockInit.ORE_OVERWORLD.getDefaultState().withProperty(ModOre.VARIANT, EnumHandler.EnumType.BRAIN), 7);
-		over_boyan = new WorldGenMinable(BlockInit.ORE_OVERWORLD.getDefaultState().withProperty(ModOre.VARIANT, EnumHandler.EnumType.BOYAN), 7);
-		over_boob = new WorldGenMinable(BlockInit.ORE_OVERWORLD.getDefaultState().withProperty(ModOre.VARIANT, EnumHandler.EnumType.BOOB), 7);
+		over_brain = new WorldGenMinable(BlockInit.ORE_OVERWORLD.getDefaultState().withProperty(ModOre.VARIANT, EnumHandlerBlock.EnumType.BRAIN), 7);
+		over_boyan = new WorldGenMinable(BlockInit.ORE_OVERWORLD.getDefaultState().withProperty(ModOre.VARIANT, EnumHandlerBlock.EnumType.BOYAN), 7);
+		over_boob = new WorldGenMinable(BlockInit.ORE_OVERWORLD.getDefaultState().withProperty(ModOre.VARIANT, EnumHandlerBlock.EnumType.BOOB), 7);
 	}
 
 	@Override
@@ -35,8 +35,8 @@ public class ModWorldGenOre implements IWorldGenerator {
 		case 0: //Overworld
 			modOreGenerator(this.brian_ore, world, random, chunkX, chunkZ, 100, 0, 128);
 			modOreGenerator(this.over_brain, world, random, chunkX, chunkZ, 50, 10, 100);
-			modOreGenerator(this.over_boyan, world, random, chunkX, chunkZ, 50, 10, 100);
-			modOreGenerator(this.over_boob, world, random, chunkX, chunkZ, 50, 10, 100);
+			modOreGenerator(this.over_boyan, world, random, chunkX, chunkZ, 50, 10, 50);
+			modOreGenerator(this.over_boob, world, random, chunkX, chunkZ, 50, 10, 25);
 			break;
 		case -1: //Nether
 			

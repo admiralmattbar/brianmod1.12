@@ -2,7 +2,7 @@ package org.educraft.brianface.util;
 
 import net.minecraft.util.IStringSerializable;
 
-public class EnumHandler {
+public class EnumHandlerBlock {
 
     public static enum EnumType implements IStringSerializable
     {

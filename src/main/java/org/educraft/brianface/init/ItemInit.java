@@ -31,6 +31,9 @@ public class ItemInit {
     //Misc Items
     public static final ModItem BRIAN_FACE = new ItemBrian();
     public static final Item BRIAN_POO = new ItemBrianPoo();
+    public static final ModItem boob = new ModItem("item_boob", CreativeTabs.MATERIALS);
+    public static final ModItem brain = new ModItem("item_brain", CreativeTabs.MATERIALS);
+    public static final ModItem boyan = new ModItem("item_boyan", CreativeTabs.MATERIALS);
 
     //Armor
     public static final Item BRIAN_HELMET = new ItemBrianArmor("brian_helmet", brian_armor, 1,EntityEquipmentSlot.HEAD);
@@ -44,6 +47,7 @@ public class ItemInit {
     public static final ItemTool BRIAN_AXE = new ItemBrianAxe(ItemInit.brian_material);
     public static final ModSpade BRIAN_SHOVEL = new ModSpade("brian_shovel", ItemInit.brian_material);
     public static final Item BRIAN_WRENCH = new ItemBrianWrench();
+    public static final Item BRIANADE = new ItemBrianade();
 
     //Food
     public static final Item BRIAN_JERKY = new ModFood("brian_jerky", 10, 5f, true);
