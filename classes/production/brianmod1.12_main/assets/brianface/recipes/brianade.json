@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " F ",
+    " B ",
+    "OYR"
+  ],
+  "key":{
+    "B": {
+      "item": "brianface:brian_face"
+    },
+    "O": {
+      "item": "brianface:item_boob"
+    },
+    "Y": {
+      "item": "brianface:item_boyan"
+    },
+    "R": {
+      "item": "brianface:item_brain"
+    },
+    "F": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "brianface:item_brianade"
+  }
+}

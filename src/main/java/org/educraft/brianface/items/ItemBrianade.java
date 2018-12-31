@@ -12,18 +12,20 @@ import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.world.World;
+import org.educraft.brianface.Main;
 import org.educraft.brianface.entities.EntityBrianade;
 import org.educraft.brianface.init.ItemInit;
+import org.educraft.brianface.util.IHasModel;
 
 
-public class ItemBrianade extends Item {
+public class ItemBrianade extends Item implements IHasModel {
 
     public ItemBrianade()
     {
         this.maxStackSize = 16;
         this.setCreativeTab(CreativeTabs.COMBAT);
-        this.setUnlocalizedName("brianade");
-        this.setRegistryName("brianade");
+        this.setUnlocalizedName("item_brianade");
+        this.setRegistryName("item_brianade");
 
         ItemInit.ITEMS.add(this);
     }
@@ -39,7 +41,7 @@ public class ItemBrianade extends Item {
 
         worldIn.playSound((EntityPlayer)null, playerIn.posX, playerIn.posY, playerIn.posZ, SoundEvents.ENTITY_SNOWBALL_THROW, SoundCategory.NEUTRAL, 0.5F, 0.4F / (itemRand.nextFloat() * 0.4F + 0.8F));
 
-        if (worldIn.isRemote)
+        if (true)//worldIn.isRemote)
         {
             //Change to Grenade Entity
             EntityBrianade entitybrianade = new EntityBrianade(worldIn, playerIn);
@@ -49,5 +51,10 @@ public class ItemBrianade extends Item {
 
         playerIn.addStat(StatList.getObjectUseStats(this));
         return new ActionResult(EnumActionResult.SUCCESS, itemstack);
+    }
+
+    @Override
+    public void registerModels() {
+        Main.proxy.registerItemRenderer(this, 0, "inventory");
     }
 }

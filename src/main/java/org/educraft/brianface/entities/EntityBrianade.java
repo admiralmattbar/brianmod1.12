@@ -57,14 +57,20 @@ public class EntityBrianade extends EntityThrowable
 
     protected void onImpact(RayTraceResult result)
     {
+        this.setDead();
 
         if (!this.world.isRemote)
         {
-            world.createExplosion(result.entityHit, result.hitVec.x, result.hitVec.y, result.hitVec.z, 10f, true);
+            this.explode();
+
         }
 
-        this.setDead();
+    }
 
+    private void explode()
+    {
+        float f = 4.0F;
+        this.world.createExplosion(this, this.posX, this.posY + (double)(this.height / 16.0F), this.posZ, 4.0F, true);
     }
 
 }
