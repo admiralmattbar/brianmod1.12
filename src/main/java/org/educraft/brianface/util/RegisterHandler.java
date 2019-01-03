@@ -53,6 +53,7 @@ public class RegisterHandler {
     {
         GameRegistry.registerWorldGenerator(new ModWorldGenOre(), 0);
 
+
     }
 
 }

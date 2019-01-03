@@ -15,4 +15,5 @@ public class Reference {
 	public static final String SERVER_PROXY_CLASS = "org.educraft.brianface.proxy.ServerProxy";
 
 	public static final int ENTITY_BRIAN = 120;
+	public static final int ENTITY_BRIANADE = 121;
 }

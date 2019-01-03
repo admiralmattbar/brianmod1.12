@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "modid": "brianface",
+  "name": "Brian Face",
+  "description": "Brian is now an integral part of Minecraft!",
+  "version": "1.0",
+  "mcversion": "1.12.2",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Matthew Kissel"],
+  "credits": "The Forge and FML guys, for making Forge! Brian for existing.",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
